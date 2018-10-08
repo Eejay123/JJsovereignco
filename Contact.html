@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JJ Sovereign Co. | MNL CLOTHING LINE</title>
+  <meta charset="utf-8">
+  <link href='https://fonts.googleapis.com/css?family=Allura' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Bilbo Swash Caps' rel='stylesheet'>
+  <link rel="stylesheet" type="text/css" href="Contact.css">
+  <link href='https://fonts.googleapis.com/css?family=Archivo Black' rel='stylesheet'>
+  <link href="https://fonts.googleapis.com/css?family=Quicksand:500" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Advent Pro' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Euphoria Script' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Anton' rel='stylesheet'>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+</head>
+<body>
+  <div class="wrapper">
+    <nav>
+      <div class="logo">
+
+        JJ SOVEREIGN CO.
+      </div>
+      <ul>
+        <li><a href="JJSovereignCo.html">Home</a></li>
+        <li><a href="Products.html">Products</a></li>
+        <li><a href="FINAL%20PROJECT.html">About</a></li>
+        <li><a class="active" href="Contact.html">Contact</a></li>
+  
+      </ul>
+    </nav>
+    <div class="middle">
+    <div class="contacts">
+      <h4>INFORMATION & LOCATION</h4>
+    </div>
+    <div class="location">
+      <h3>//JJSOVEREIGNCO IS LOCATED AT</h3>
+      <div class="fas fa-map-marker-alt"></div><p>2653 A. Bonifacio St. Brgy. Bangkal Manila, Philippines</p>
+      <div class="fas fa-mobile"></div><h1>09752348910</h1>
+      <div class="fas fa-envelope"></div><h2> jjsovereignco@company.com</h2>
+    </div>
+    <div class="mediaplatforms">
+      <h3>//OUR MEDIA PLATFORMS</h3>
+      <ul>
+      <li><img src="facebook.png"></li>
+      <li><img src="twitter-icon.png"></li>
+      <li><img src="instagram-colourful-icon.png"></li>
+      <li><img src="Google-plus-circle-icon-png.png"></li>
+      </ul>
+      <div class="fb"><p>www.facebook/jjsovereignco/.com<p></div>
+      <div class="twitter"><p>www.twitter/jjsovereignco/.com<p></div>
+      <div class="insta">  <p>www.instagram/jjsovereignco/.com<p></div>
+      <div class="gmail">  <p>www.jjsovereigncoapparel@gmail.com<p></div>
+
+    </div>
+    <div class="geolocation">
+    <div class="geo">
+      <h3>//USE OUR GEOLOCATION </h3>
+
+      <button onclick="getLocation()">Try It</button>
+
+<p id="demo"></p>
+
+<script>
+var x = document.getElementById("demo");
+
+function getLocation() {
+    if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(showPosition, showError);
+    } else {
+        x.innerHTML = "Geolocation is not supported by this browser.";
+    }
+}
+
+function showPosition(position) {
+    x.innerHTML = "Latitude: " + position.coords.latitude +
+    "<br>Longitude: " + position.coords.longitude;
+}
+
+function showError(error) {
+    switch(error.code) {
+        case error.PERMISSION_DENIED:
+            x.innerHTML = "User denied the request for Geolocation."
+            break;
+        case error.POSITION_UNAVAILABLE:
+            x.innerHTML = "Location information is unavailable."
+            break;
+        case error.TIMEOUT:
+            x.innerHTML = "The request to get user location timed out."
+            break;
+        case error.UNKNOWN_ERROR:
+            x.innerHTML = "An unknown error occurred."
+            break;
+    }
+}
+</script>
+    </div>
+    </div>
+  <div class="details">
+    <h3>//STEPS ON ORDERING</h3>
+    <div class="step1">
+      <h4><span>1</span>SEND ORDER FORM</h4>
+      <p>You may send a screenshot of the designs you want to order.</p>
+  </div>
+  <div class="step2">
+    <h4><span>2</span>SEND PAYMENT</h4>
+    <p>After sending money,take a photo of payment.</p>
+  </div>
+  <div class="step3">
+    <h4><span>3</span>RELAX & WAIT</h4>
+    <p>Please wait fo a few days for delivery.</p>
+  </div>
+  <div class="step4">
+    <h4><span>4</span>RECEVE PACKAGE</h4>
+    <p>You will receive your package w/in 3-5 days.</p>
+  </div>
+
+
+
+
+
+</body>
+</html>
